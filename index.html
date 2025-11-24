@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas Avançada</title>
+  
+  <!-- Flatpickr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>SkyTasks Lista de Tarefas</h1>
+
+    <div class="input-container">
+      <input type="text" id="task-input" placeholder="Digite sua tarefa...">
+      <input type="text" id="task-date" placeholder="Escolha a data">
+      <select id="task-priority">
+        <option value="Baixa">Baixa</option>
+        <option value="Média">Média</option>
+        <option value="Alta">Alta</option>
+      </select>
+      <button id="add-task">Adicionar</button>
+    </div>
+
+    <div class="filter-container">
+      <button id="filter-all">Todas</button>
+      <button id="filter-pending">Pendentes</button>
+      <button id="filter-completed">Concluídas</button>
+    </div>
+
+    <ul id="task-list"></ul>
+    <button id="clear-completed">Limpar Tarefas Concluídas</button>
+
+    <!-- Rodapé da Empresa -->
+    <p class="empresa-footer">Desenvolvido por <strong>SkyTech Solutions</strong></p>
+
+  </div>
+
+  <!-- Flatpickr JS -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
