@@ -5,7 +5,7 @@
 
 ## 📌 Sobre o Projeto
 O **SkyTasks** é um web-app responsivo criado para facilitar a gestão de tarefas do dia a dia.  
-Foi desenvolvido como entrega da **N2**, seguindo os requisitos de:
+Foi desenvolvido como entrega da disciplina Aplicativos Movéis, seguindo os requisitos de:
 
 - Criar um **web-app**
 - Interface **responsiva**
